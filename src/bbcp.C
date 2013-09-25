@@ -58,7 +58,7 @@ extern bbcp_System   bbcp_OS;
 /*                                  m a i n                                   */
 /******************************************************************************/
   
-main(int argc, char *argv[], char *envp[])
+int main(int argc, char *argv[], char *envp[])
 {
    bbcp_Node     *Source, *Sink;
    bbcp_Protocol  Protocol;
